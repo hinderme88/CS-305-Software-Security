@@ -7,8 +7,9 @@
 ### Instituting the RESTful API and actually seeing it work was very helpful for me to visualize what we were working towards. At the same time, that was probably one of the most challenging aspects as well, because I faced a few obstacles in getting my API to function correctly, and I had to do a lot of research to bring everything together.
 ### How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 ## I increased security by introducing TLS into our API, as well as by running all of our dependencies through the Dependency Check. I was then able to go through all of the vulnerabilities and determine which I could mitigate through updating the vulnerable software. I also used secure coding practices to prevent data breaches at the programmatic level.
-### How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
-## I re-ran the dependencies through the Dependency check after refactoring to ensure no new vulnerabilities had been introduced by my changes. 
-### What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
-### Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
-## I would likely show future employers the refactored code that I wrote to finish the API. This shows a valuable skill-set that should be highly desirable by hiring officials everywhere.
+## How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+### I re-ran the dependencies through the Dependency check after refactoring to ensure no new vulnerabilities had been introduced by my changes. 
+## What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+### I think the Dependency check tool will continue to prove a valuable asset in future assignments. Also the textbook Iron-Clad Java had a plethora of very relevant and detailed information regarding security.
+## Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+### I would likely show future employers the refactored code that I wrote to finish the API. This shows a valuable skill-set that should be highly desirable by hiring officials everywhere.
